@@ -64,7 +64,7 @@ window.onscroll = function () {
     document.querySelector(".navbarr").style.top="0"
   }
   else {
-    document.querySelector(".navbarr").style.top="-75px"
+    document.querySelector(".navbarr").style.top="-85px"
   }
   prevScrollpos = currentScrollpos;
 }

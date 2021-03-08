@@ -22,7 +22,7 @@
             left: 0;
             width: 100%;
             z-index: 1;
-            padding: 5px 2%;
+            padding: 5px 2% 15px;
             background-color: rgba(black, 0.5);
             .menu {
                 padding: 0 2rem;
@@ -32,7 +32,7 @@
                 .logo {
                     font-size: 2rem;
                     font-weight: 700;
-                    
+                    text-decoration: none;
                     text-transform: uppercase;
                     color: rgb(236, 19, 236);
                     text-shadow: 1px 1px #fff;
@@ -429,7 +429,7 @@
 
 #contact {
     padding: 2% 0 10%;
-    background-color: #090b2c;
+    background-color: #0E0F25;
     .section-header {
         padding-left: 20%;
         margin-bottom: 2%;
@@ -448,8 +448,13 @@
             a {
                 text-decoration: none;
                 i {
-                    font-size: 2rem;
+                    font-size: 4rem;
+                    color: #5e239d;
+                    &:hover{
+                        color: #321353;
+                    }
                 }
+                
             }
         }
     }
